@@ -1,0 +1,7 @@
+﻿services:
+  runaway:
+    image: runaway
+    build:
+      context: .
+      dockerfile: RunAway/Dockerfile
+
